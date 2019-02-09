@@ -1,7 +1,7 @@
 {
   "details": "https://github.com/ibericode/vat-rates",
   "version": 2,
-  "rates": {
+  "data": {
     "ES": [
         {
           "effective_from": "0000-01-01",
