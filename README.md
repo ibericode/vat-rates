@@ -30,6 +30,9 @@ The following client libraries are available right now.
 
 - [dannyvankooten/vat](https://github.com/dannyvankooten/vat)
 
+## Disclaimer
+
+This repository is provided on an as-is basis. The authors or contributors cannot be held responsible for its accuracy or completeness. 
 
 ## License
 
