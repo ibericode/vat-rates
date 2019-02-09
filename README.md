@@ -7,7 +7,7 @@ Its primary purpose is to provide a community maintained up-to-date resource of 
 
 Pull requests for updated VAT rates are closely monitored and more than welcome.
 
-### Usage
+## Usage
 
 You can fetch the JSON resource from GitHub directly. We recommend creating a local copy and refreshing that periodically.
 
@@ -15,7 +15,7 @@ You can fetch the JSON resource from GitHub directly. We recommend creating a lo
 curl https://raw.githubusercontent.com/ibericode/vat-rates/master/vat-rates.json
 ```
 
-### Client libraries
+## Client libraries
 
 The following client libraries are available right now.
 
@@ -28,6 +28,6 @@ The following client libraries are available right now.
 - [dannyvankooten/vat](https://github.com/dannyvankooten/vat)
 
 
-### License
+## License
 
 MIT licensed. See [LICENSE](LICENSE) for details.
