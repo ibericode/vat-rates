@@ -4,4 +4,4 @@ python:
   - "3.6" 
 
 script:
-  - validate.py
+  - python validate.py
