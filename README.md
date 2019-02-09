@@ -12,7 +12,7 @@ Pull requests for updated VAT rates are closely monitored and more than welcome.
 
 ## Usage
 
-You can fetch the JSON resource from GitHub directly. We recommend creating a local copy and refreshing that periodically.
+You can fetch the JSON resource from GitHub directly. We recommend storing a local copy and refreshing it periodically (or use a client library that handles this for you).
 
 ```sh
 curl https://raw.githubusercontent.com/ibericode/vat-rates/master/vat-rates.json
