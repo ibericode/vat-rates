@@ -1,5 +1,8 @@
 VAT Rates
 =========
+[![Build Status](https://img.shields.io/travis/ibericode/vat-rates.svg)](https://travis-ci.org/ibericode/vat-rates)
+![Last commit](https://img.shields.io/github/last-commit/ibericode/vat-rates.svg)
+![License](https://img.shields.io/github/license/ibericode/vat-rates.svg)
 
 This repository is a fork from [adamcooke/vat-rates](https://github.com/adamcooke/vat-rates) and hosts a collection of EU VAT rates.
 
