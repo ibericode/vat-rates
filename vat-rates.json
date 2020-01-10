@@ -1,6 +1,6 @@
 {
   "details": "https://github.com/ibericode/vat-rates",
-  "version": 2,
+  "version": 3,
   "items": {
     "ES": [
         {
@@ -9,7 +9,24 @@
             "super_reduced": 4,
             "reduced": 10,
             "standard": 21
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Canary Islands",
+              "postcode": "(35\\d{3}|38\\d{3})",
+              "standard": 0
+            },
+            {
+              "name": "Ceuta",
+              "postcode": "(5100[1-5]|5107[0-1]|51081)",
+              "standard": 0
+            },
+            {
+              "name": "Melilla",
+              "postcode": "(5200[0-6]|5207[0-1]|52081)",
+              "standard": 0
+            }
+          ]
         }
     ],
     "BG":  [
@@ -85,7 +102,19 @@
             "super_reduced": 4,
             "reduced": 10,
             "standard": 22
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Campione d'Italia",
+              "postcode": "22060",
+              "standard": 0
+            },
+            {
+              "name": "Livigno",
+              "postcode": "23030",
+              "standard": 0
+            }
+          ]
         }
       ],
     "SI": [
@@ -220,7 +249,14 @@
             "reduced1": 6,
             "reduced2": 13.5,
             "standard": 24
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Mount Athos",
+              "postcode": "63086",
+              "standard": 0
+            }
+          ]
         },
         {
           "effective_from": "2016-01-01",
@@ -257,7 +293,34 @@
             "reduced1": 5.5,
             "reduced2": 10,
             "standard": 20
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Guadeloupe",
+              "postcode": "971\\d{2,}",
+              "standard": 8.5
+            },
+            {
+              "name": "Martinique",
+              "postcode": "972\\d{2,}",
+              "standard": 8.5
+            },
+            {
+              "name": "Guyane",
+              "postcode": "973\\d{2,}",
+              "standard": 0
+            },
+            {
+              "name": "Reunion",
+              "postcode": "974\\d{2,}",
+              "standard": 8.5
+            },
+            {
+              "name": "Mayotte",
+              "postcode": "976\\d{2,}",
+              "standard": 0
+            }
+          ]
         },
         {
           "effective_from": "2012-01-01",
@@ -336,7 +399,19 @@
           "rates": {
             "reduced": 7,
             "standard": 19
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Büsingen am Hochrhein",
+              "postcode": "78266",
+              "standard": 0
+            },
+            {
+              "name": "Heligoland",
+              "postcode": "27498",
+              "standard": 0
+            }
+          ]
         }
       ],
     "PT": [
@@ -347,7 +422,19 @@
             "reduced2": 13,
             "standard": 23,
             "parking": 13
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Madeira",
+              "postcode": "9[0-4]\\d{2,}",
+              "standard": 22
+            },
+            {
+              "name": "Azores",
+              "postcode": "9[5-9]\\d{2,}",
+              "standard": 18
+            }
+          ]
         }
       ],
     "AT": [
@@ -358,7 +445,19 @@
             "reduced2": 13,
             "standard": 20,
             "parking": 13
-          }
+          },
+          "exceptions": [
+            {
+              "name": "Jungholz",
+              "postcode": "6691",
+              "standard": 19
+            },
+            {
+              "name": "Mittelberg",
+              "postcode": "699[123]",
+              "standard": 19
+            }
+          ]
         },
         {
           "effective_from": "0000-01-01",
