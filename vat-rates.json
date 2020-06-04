@@ -412,6 +412,44 @@
               "standard": 0
             }
           ]
+        },
+        {
+          "effective_from": "2020-07-01",
+          "rates": {
+            "reduced": 5,
+            "standard": 16
+          },
+          "exceptions": [
+            {
+              "name": "Büsingen am Hochrhein",
+              "postcode": "78266",
+              "standard": 0
+            },
+            {
+              "name": "Heligoland",
+              "postcode": "27498",
+              "standard": 0
+            }
+          ]
+        },
+        {
+          "effective_from": "2021-01-01",
+          "rates": {
+            "reduced": 7,
+            "standard": 19
+          },
+          "exceptions": [
+            {
+              "name": "Büsingen am Hochrhein",
+              "postcode": "78266",
+              "standard": 0
+            },
+            {
+              "name": "Heligoland",
+              "postcode": "27498",
+              "standard": 0
+            }
+          ]
         }
       ],
     "PT": [
