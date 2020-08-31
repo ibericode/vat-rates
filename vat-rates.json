@@ -136,6 +136,26 @@
             "standard": 23,
             "parking": 13.5
           }
+        },
+        {
+          "effective_from": "2020-09-01",
+          "rates": {
+            "super_reduced": 4.8,
+            "reduced1": 9,
+            "reduced2": 13.5,
+            "standard": 21,
+            "parking": 13.5
+          }
+        }
+        {
+          "effective_from": "2021-03-01",
+          "rates": {
+            "super_reduced": 4.8,
+            "reduced1": 9,
+            "reduced2": 13.5,
+            "standard": 23,
+            "parking": 13.5
+          }
         }
       ],
     "SE":[
