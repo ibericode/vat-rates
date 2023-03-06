@@ -198,6 +198,24 @@
       ],
     "LU": [
         {
+          "effective_from": "2024-01-01",
+          "rates": {
+            "super_reduced": 3,
+            "reduced1": 8,
+            "standard": 17,
+            "parking": 13
+          }
+        },
+        {
+          "effective_from": "2023-01-01",
+          "rates": {
+            "super_reduced": 3,
+            "reduced1": 7,
+            "standard": 16,
+            "parking": 13
+          }
+        },
+        {
           "effective_from": "2016-01-01",
           "rates": {
             "super_reduced": 3,
