@@ -74,6 +74,13 @@
             "standard": 20,
             "reduced": 5
           }
+        },
+        {
+          "effective_from": "2021-01-01",
+          "rates": {
+            "standard": 0,
+            "reduced": 0
+          }
         }
       ],
     "CZ":  [
