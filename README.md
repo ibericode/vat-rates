@@ -1,6 +1,6 @@
 VAT Rates
 =========
-![build status](https://github.com/github/docs/actions/workflows/python-app.yml/badge.svg)
+![build status](https://github.com/ibericode/vat-rates/actions/workflows/verify-rates-file.yml/badge.svg)
 
 This repository is a maintained fork from [adamcooke/vat-rates](https://github.com/adamcooke/vat-rates) and hosts a community maintained collection of EU VAT rates.
 
