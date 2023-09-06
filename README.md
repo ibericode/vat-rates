@@ -1,12 +1,10 @@
 VAT Rates
 =========
-[![Build Status](https://img.shields.io/travis/ibericode/vat-rates.svg)](https://travis-ci.org/ibericode/vat-rates)
-![Last commit](https://img.shields.io/github/last-commit/ibericode/vat-rates.svg)
-![License](https://img.shields.io/github/license/ibericode/vat-rates.svg)
+![build status](https://github.com/github/docs/actions/workflows/python-app.yml/badge.svg)
 
-This repository is a fork from [adamcooke/vat-rates](https://github.com/adamcooke/vat-rates) and hosts a collection of EU VAT rates.
+This repository is a maintained fork from [adamcooke/vat-rates](https://github.com/adamcooke/vat-rates) and hosts a community maintained collection of EU VAT rates.
 
-Its primary purpose is to provide a community maintained up-to-date resource of VAT rates for EU member states.
+Its primary purpose is to provide an up-to-date resource of VAT rates for EU member states.
 
 Pull requests for updated VAT rates are closely monitored and more than welcome.
 
