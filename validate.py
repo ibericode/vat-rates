@@ -2,6 +2,7 @@
 
 import json
 import unittest
+import datetime 
 
 class SchemaTest(unittest.TestCase):
     def test(self):
@@ -12,12 +13,19 @@ class SchemaTest(unittest.TestCase):
         for country, periods in data['items'].items():
             self.assertEqual(type(country), str)
             self.assertEqual(type(periods), list)
+            prev = None
 
             for p in periods:
                 self.assertEqual(type(p), dict)
                 self.assertEqual(type(p['effective_from']), str)
                 self.assertEqual(type(p['rates']), dict)
                 self.assertIsInstance(p['rates']['standard'], (int, float))
+
+                date = datetime.datetime.strptime(p['effective_from'].replace('0000', '2000'), '%Y-%m-%d') 
+                if prev:
+                    self.assertGreater(date, prev, "effective_from dates for {} are not sorted chronologically".format(country))
+                prev = date
+
 
         file.close()
 
