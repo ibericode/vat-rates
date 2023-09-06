@@ -128,7 +128,7 @@
     ],
     "IE": [
       {
-        "effective_from": "0000-01-01",
+        "effective_from": "2021-03-01",
         "rates": {
           "super_reduced": 4.8,
           "reduced1": 9,
@@ -148,7 +148,7 @@
         }
       },
       {
-        "effective_from": "2021-03-01",
+        "effective_from": "0000-01-01",
         "rates": {
           "super_reduced": 4.8,
           "reduced1": 9,
@@ -198,27 +198,7 @@
     ],
     "LU": [
       {
-        "effective_from": "0000-01-01",
-        "rates": {
-          "super_reduced": 3,
-          "reduced1": 6,
-          "reduced2": 12,
-          "standard": 15,
-          "parking": 12
-        }
-      },
-      {
-        "effective_from": "2015-01-01",
-        "rates": {
-          "super_reduced": 3,
-          "reduced1": 8,
-          "reduced2": 14,
-          "standard": 17,
-          "parking": 12
-        }
-      },
-      {
-        "effective_from": "2016-01-01",
+        "effective_from": "2024-01-01",
         "rates": {
           "super_reduced": 3,
           "reduced1": 8,
@@ -236,22 +216,42 @@
         }
       },
       {
-        "effective_from": "2024-01-01",
+        "effective_from": "2016-01-01",
         "rates": {
           "super_reduced": 3,
           "reduced1": 8,
           "standard": 17,
           "parking": 13
         }
+      },
+      {
+        "effective_from": "2015-01-01",
+        "rates": {
+          "super_reduced": 3,
+          "reduced1": 8,
+          "reduced2": 14,
+          "standard": 17,
+          "parking": 12
+        }
+      },
+      {
+        "effective_from": "0000-01-01",
+        "rates": {
+          "super_reduced": 3,
+          "reduced1": 6,
+          "reduced2": 12,
+          "standard": 15,
+          "parking": 12
+        }
       }
     ],
     "RO": [
       {
-        "effective_from": "0000-01-01",
+        "effective_from": "2017-01-01",
         "rates": {
           "reduced1": 5,
           "reduced2": 9,
-          "standard": 24
+          "standard": 19
         }
       },
       {
@@ -263,54 +263,38 @@
         }
       },
       {
-        "effective_from": "2017-01-01",
+        "effective_from": "0000-01-01",
         "rates": {
           "reduced1": 5,
           "reduced2": 9,
-          "standard": 19
+          "standard": 24
         }
       }
     ],
     "EE": [
-        {
-          "effective_from": "0000-01-01",
-          "rates": {
-            "reduced": 9,
-            "standard": 20
-          }
-        },
-        {
-          "effective_from": "2024-01-01",
-          "rates": {
-            "reduced": 9,
-            "standard": 22
-          }
-        },
-        {
-          "effective_from": "2025-01-01",
-          "rates": {
-            "reduced": 13,
-            "standard": 22
-          }
+      {
+        "effective_from": "2025-01-01",
+        "rates": {
+          "reduced": 13,
+          "standard": 22
         }
-      ],
-    "GR": [
+      },
+      {
+        "effective_from": "2024-01-01",
+        "rates": {
+          "reduced": 9,
+          "standard": 22
+        }
+      },
       {
         "effective_from": "0000-01-01",
         "rates": {
-          "reduced1": 6.5,
-          "reduced2": 13,
-          "standard": 23
+          "reduced": 9,
+          "standard": 20
         }
-      },
-      {
-        "effective_from": "2016-01-01",
-        "rates": {
-          "reduced1": 6,
-          "reduced2": 13.5,
-          "standard": 23
-        }
-      },
+      }
+    ],
+    "GR": [
       {
         "effective_from": "2016-06-01",
         "rates": {
@@ -325,6 +309,22 @@
             "standard": 0
           }
         ]
+      },
+      {
+        "effective_from": "2016-01-01",
+        "rates": {
+          "reduced1": 6,
+          "reduced2": 13.5,
+          "standard": 23
+        }
+      },
+      {
+        "effective_from": "0000-01-01",
+        "rates": {
+          "reduced1": 6.5,
+          "reduced2": 13,
+          "standard": 23
+        }
       }
     ],
     "LT": [
@@ -338,23 +338,6 @@
       }
     ],
     "FR": [
-      {
-        "effective_from": "0000-01-01",
-        "rates": {
-          "super_reduced": 2.1,
-          "reduced1": 5.5,
-          "standard": 19.6
-        }
-      },
-      {
-        "effective_from": "2012-01-01",
-        "rates": {
-          "super_reduced": 2.1,
-          "reduced1": 5.5,
-          "reduced2": 7,
-          "standard": 19.6
-        }
-      },
       {
         "effective_from": "2014-01-01",
         "rates": {
@@ -390,6 +373,23 @@
             "standard": 0
           }
         ]
+      },
+      {
+        "effective_from": "2012-01-01",
+        "rates": {
+          "super_reduced": 2.1,
+          "reduced1": 5.5,
+          "reduced2": 7,
+          "standard": 19.6
+        }
+      },
+      {
+        "effective_from": "0000-01-01",
+        "rates": {
+          "super_reduced": 2.1,
+          "reduced1": 5.5,
+          "standard": 19.6
+        }
       }
     ],
     "HR": [
@@ -415,10 +415,10 @@
     ],
     "NL": [
       {
-        "effective_from": "0000-01-01",
+        "effective_from": "2019-01-01",
         "rates": {
-          "reduced": 6,
-          "standard": 19
+          "reduced": 9,
+          "standard": 21
         }
       },
       {
@@ -429,10 +429,10 @@
         }
       },
       {
-        "effective_from": "2019-01-01",
+        "effective_from": "0000-01-01",
         "rates": {
-          "reduced": 9,
-          "standard": 21
+          "reduced": 6,
+          "standard": 19
         }
       }
     ],
@@ -447,7 +447,7 @@
     ],
     "DE": [
       {
-        "effective_from": "0000-01-01",
+        "effective_from": "2021-01-01",
         "rates": {
           "reduced": 7,
           "standard": 19
@@ -485,7 +485,7 @@
         ]
       },
       {
-        "effective_from": "2021-01-01",
+        "effective_from": "0000-01-01",
         "rates": {
           "reduced": 7,
           "standard": 19
@@ -529,14 +529,6 @@
     ],
     "AT": [
       {
-        "effective_from": "0000-01-01",
-        "rates": {
-          "reduced": 10,
-          "standard": 20,
-          "parking": 12
-        }
-      },
-      {
         "effective_from": "2016-01-01",
         "rates": {
           "reduced1": 10,
@@ -556,6 +548,14 @@
             "standard": 19
           }
         ]
+      },
+      {
+        "effective_from": "0000-01-01",
+        "rates": {
+          "reduced": 10,
+          "standard": 20,
+          "parking": 12
+        }
       }
     ]
   }

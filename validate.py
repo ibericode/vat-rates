@@ -23,7 +23,7 @@ class SchemaTest(unittest.TestCase):
 
                 date = datetime.datetime.strptime(p['effective_from'].replace('0000', '2000'), '%Y-%m-%d') 
                 if prev:
-                    self.assertGreater(date, prev, "effective_from dates for {} are not sorted chronologically".format(country))
+                    self.assertLess(date, prev, "periods for {} are not sorted with most recent period first".format(country))
                 prev = date
 
 
