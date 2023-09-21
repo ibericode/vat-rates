@@ -106,12 +106,12 @@
         "exceptions": [
           {
             "name": "Campione d'Italia",
-            "postcode": "22060",
+            "postcode": "22061",
             "standard": 0
           },
           {
             "name": "Livigno",
-            "postcode": "23030",
+            "postcode": "23041",
             "standard": 0
           }
         ]
