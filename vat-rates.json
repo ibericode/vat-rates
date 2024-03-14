@@ -100,7 +100,8 @@
         "effective_from": "0000-01-01",
         "rates": {
           "super_reduced": 4,
-          "reduced": 10,
+          "reduced1": 5,
+          "reduced2": 10,
           "standard": 22
         },
         "exceptions": [
