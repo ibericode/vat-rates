@@ -80,7 +80,8 @@
       {
         "effective_from": "0000-01-01",
         "rates": {
-          "reduced": 15,
+          "reduced1": 10,
+          "reduced2": 15,
           "standard": 21
         }
       }
