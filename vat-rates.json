@@ -300,7 +300,7 @@
         "effective_from": "2016-06-01",
         "rates": {
           "reduced1": 6,
-          "reduced2": 13.5,
+          "reduced2": 13,
           "standard": 24
         },
         "exceptions": [
