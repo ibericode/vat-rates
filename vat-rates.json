@@ -1,6 +1,6 @@
 {
   "details": "https://github.com/ibericode/vat-rates",
-  "version": 3,
+  "version": 4,
   "items": {
     "ES": [
       {
@@ -78,6 +78,13 @@
       }
     ],
     "CZ": [
+      {
+        "effective_from": "2024-01-01",
+        "rates": {
+            "reduced": 12,
+            "standard": 21
+        }
+      },
       {
         "effective_from": "0000-01-01",
         "rates": {
