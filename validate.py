@@ -1,15 +1,15 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
 import unittest
-import datetime 
+import datetime
 
 class SchemaTest(unittest.TestCase):
     def test(self):
         file = open('vat-rates.json')
         data = json.load(file)
         self.assertEqual(len(data['items']), 28)
-       
+
         for country, periods in data['items'].items():
             self.assertEqual(type(country), str)
             self.assertEqual(type(periods), list)
@@ -21,7 +21,7 @@ class SchemaTest(unittest.TestCase):
                 self.assertEqual(type(p['rates']), dict)
                 self.assertIsInstance(p['rates']['standard'], (int, float))
 
-                date = datetime.datetime.strptime(p['effective_from'].replace('0000', '2000'), '%Y-%m-%d') 
+                date = datetime.datetime.strptime(p['effective_from'].replace('0000', '2000'), '%Y-%m-%d')
                 if prev:
                     self.assertLess(date, prev, "periods for {} are not sorted with most recent period first".format(country))
                 prev = date
