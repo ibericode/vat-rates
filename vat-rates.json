@@ -457,6 +457,13 @@
     ],
     "SK": [
       {
+        "effective_from": "2025-01-01",
+        "rates": {
+          "reduced": 19,
+          "standard": 23
+        }
+      },
+      {
         "effective_from": "0000-01-01",
         "rates": {
           "reduced": 10,
