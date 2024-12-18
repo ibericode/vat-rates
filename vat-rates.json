@@ -459,7 +459,8 @@
       {
         "effective_from": "2025-01-01",
         "rates": {
-          "reduced": 19,
+          "reduced1": 5,
+          "reduced2": 19,
           "standard": 23
         }
       },
