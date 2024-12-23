@@ -294,14 +294,16 @@
       {
         "effective_from": "2025-01-01",
         "rates": {
-          "reduced": 13,
+          "reduced1": 9,
+          "reduced2": 13,
           "standard": 22
         }
       },
       {
         "effective_from": "2024-01-01",
         "rates": {
-          "reduced": 9,
+          "reduced1": 5,
+          "reduced2": 9,
           "standard": 22
         }
       },
