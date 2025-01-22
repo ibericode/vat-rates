@@ -411,6 +411,34 @@
         }
       }
     ],
+    "MC": [
+      {
+        "effective_from": "2014-01-01",
+        "rates": {
+          "super_reduced": 2.1,
+          "reduced1": 5.5,
+          "reduced2": 10,
+          "standard": 20
+        }
+      },
+      {
+        "effective_from": "2012-01-01",
+        "rates": {
+          "super_reduced": 2.1,
+          "reduced1": 5.5,
+          "reduced2": 7,
+          "standard": 19.6
+        }
+      },
+      {
+        "effective_from": "0000-01-01",
+        "rates": {
+          "super_reduced": 2.1,
+          "reduced1": 5.5,
+          "standard": 19.6
+        }
+      }
+    ],
     "HR": [
       {
         "effective_from": "0000-01-01",
