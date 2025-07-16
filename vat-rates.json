@@ -294,6 +294,7 @@
       {
         "effective_from": "2025-07-01",
         "rates": {
+          "press_publications": 9,
           "reduced": 13,
           "standard": 24
         }
