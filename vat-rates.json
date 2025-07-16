@@ -292,6 +292,13 @@
     ],
     "EE": [
       {
+        "effective_from": "2025-07-01",
+        "rates": {
+          "reduced": 13,
+          "standard": 24
+        }
+      },
+      {
         "effective_from": "2025-01-01",
         "rates": {
           "reduced": 13,
