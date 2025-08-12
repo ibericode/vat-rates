@@ -266,6 +266,13 @@
     ],
     "RO": [
       {
+        "effective_from": "2025-08-01",
+        "rates": {
+          "reduced": 11,
+          "standard": 21
+        }
+      },
+      {
         "effective_from": "2017-01-01",
         "rates": {
           "reduced1": 5,
