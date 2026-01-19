@@ -189,6 +189,14 @@
     ],
     "FI": [
       {
+        "effective_from": "2026-01-01",
+        "rates": {
+          "reduced1": 10,
+          "reduced2": 13.5,
+          "standard": 25.5
+        }
+      },
+      {
         "effective_from": "2024-09-01",
         "rates": {
           "reduced1": 10,
