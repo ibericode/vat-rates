@@ -8,7 +8,7 @@ class SchemaTest(unittest.TestCase):
     def test(self):
         file = open('vat-rates.json')
         data = json.load(file)
-        self.assertEqual(len(data['items']), 28)
+        self.assertEqual(len(data['items']), 30)
 
         for country, periods in data['items'].items():
             self.assertEqual(type(country), str)
