@@ -14,16 +14,22 @@
           {
             "name": "Canary Islands",
             "postcode": "(35\\d{3}|38\\d{3})",
+            "super_reduced": 0,
+            "reduced": 0,
             "standard": 0
           },
           {
             "name": "Ceuta",
             "postcode": "(5100[1-5]|5107[0-1]|51081)",
+            "super_reduced": 0,
+            "reduced": 0,
             "standard": 0
           },
           {
             "name": "Melilla",
             "postcode": "(5200[0-6]|5207[0-1]|52081)",
+            "super_reduced": 0,
+            "reduced": 0,
             "standard": 0
           }
         ]
@@ -117,11 +123,17 @@
           {
             "name": "Campione d'Italia",
             "postcode": "22061",
+            "super_reduced": 0,
+            "reduced1": 0,
+            "reduced2": 0,
             "standard": 0
           },
           {
             "name": "Livigno",
             "postcode": "23041",
+            "super_reduced": 0,
+            "reduced1": 0,
+            "reduced2": 0,
             "standard": 0
           }
         ]
@@ -350,6 +362,8 @@
           {
             "name": "Mount Athos",
             "postcode": "63086",
+            "reduced1": 0,
+            "reduced2": 0,
             "standard": 0
           }
         ]
@@ -404,6 +418,9 @@
           {
             "name": "Guyane",
             "postcode": "973\\d{2,}",
+            "super_reduced": 0,
+            "reduced1": 0,
+            "reduced2": 0,
             "standard": 0
           },
           {
@@ -414,6 +431,9 @@
           {
             "name": "Mayotte",
             "postcode": "976\\d{2,}",
+            "super_reduced": 0,
+            "reduced1": 0,
+            "reduced2": 0,
             "standard": 0
           }
         ]
@@ -515,11 +535,13 @@
           {
             "name": "Büsingen am Hochrhein",
             "postcode": "78266",
+            "reduced": 0,
             "standard": 0
           },
           {
             "name": "Heligoland",
             "postcode": "27498",
+            "reduced": 0,
             "standard": 0
           }
         ]
@@ -534,11 +556,13 @@
           {
             "name": "Büsingen am Hochrhein",
             "postcode": "78266",
+            "reduced": 0,
             "standard": 0
           },
           {
             "name": "Heligoland",
             "postcode": "27498",
+            "reduced": 0,
             "standard": 0
           }
         ]
@@ -553,11 +577,13 @@
           {
             "name": "Büsingen am Hochrhein",
             "postcode": "78266",
+            "reduced": 0,
             "standard": 0
           },
           {
             "name": "Heligoland",
             "postcode": "27498",
+            "reduced": 0,
             "standard": 0
           }
         ]
@@ -576,12 +602,16 @@
           {
             "name": "Madeira",
             "postcode": "9[0-4]\\d{2,}",
-            "standard": 22
+            "standard": 22,
+            "reduced1": 5,
+            "reduced2": 12
           },
           {
             "name": "Azores",
             "postcode": "9[5-9]\\d{2,}",
-            "standard": 18
+            "standard": 18,
+            "reduced1": 4,
+            "reduced2": 9
           }
         ]
       }
@@ -599,12 +629,16 @@
           {
             "name": "Jungholz",
             "postcode": "6691",
-            "standard": 19
+            "standard": 19,
+            "reduced1": 10,
+            "reduced2": 13
           },
           {
             "name": "Mittelberg",
             "postcode": "699[123]",
-            "standard": 19
+            "standard": 19,
+            "reduced1": 10,
+            "reduced2": 13
           }
         ]
       },
